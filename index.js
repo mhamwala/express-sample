@@ -5,7 +5,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.listen(8080, (err) => {
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, (err) => {
     if (err) throw err;
     console.log('App started!');
 })
