@@ -12,5 +12,5 @@ spec:
             autoscaling.knative.dev/target: "10"
         spec:
           container:
-            image: docker.io/tomleah/express-sample
+            image: docker.io/mhamwala/express-sample
 

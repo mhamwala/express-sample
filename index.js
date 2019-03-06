@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     // Generate delay between 0.5 and 1 second.
     const delay = Math.random() * (1000 - 500) + 500;
     setTimeout(() => {
-        res.send(`Hello World! Delay: ${delay}ms`);
+        res.send(`Hello World - But hey i have made a change! Delay: ${delay}ms`);
     }, delay);
 });
 
